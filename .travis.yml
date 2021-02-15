@@ -5,3 +5,6 @@ os: linux
 language: ruby
 ruby:
   - 2.4.1
+before_install:
+  - bundle update --bundler
+  - gem install bundler:1.16.6
